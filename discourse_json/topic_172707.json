@@ -1,0 +1,2444 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 619552,
+        "name": "Shambhavi Verma",
+        "username": "24f2003130",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "created_at": "2025-04-15T09:59:51.136Z",
+        "cooked": "<p>Hi <a class=\"mention\" href=\"/u/carlton\">@carlton</a> and <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> sir,</p>\n<p>I appeared for the end term examination held on 13th April 2025 during the FN shift. I would like to bring to your attention that the exam interface did not provide an option for multiple selections. However, a few questions appeared to have multiple correct answers.</p>\n<p>I have noted down the specific questions and the corresponding options I believe to be correct.So, kindly review them and let me know if there were any errors in my understanding of the questions. The questions are as follows:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8.jpeg\" data-download-href=\"/uploads/short-url/A6rPaqEeHL4nw1GGBGp4tKdfWWs.jpeg?dl=1\" title=\"1000042547\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8_2_690x369.jpeg\" alt=\"1000042547\" data-base62-sha1=\"A6rPaqEeHL4nw1GGBGp4tKdfWWs\" width=\"690\" height=\"369\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8_2_690x369.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8_2_1035x553.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8.jpeg 2x\" data-dominant-color=\"F0E8E6\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">1000042547</span><span class=\"informations\">1080×578 187 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Question 2: Fields needed to filter “POST requests under /images/ from 15:00 to 18:00 on Mondays”</p>\n<p>To filter such logs, we need:</p>\n<p>Time → for the hour and the day (Monday)<br>\nMethod → to filter POST<br>\nURL → to filter /images/</p>\n<p>So, the correct minimal set is:</p>\n<blockquote>\n<p><img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"> Time, Method, URL</p>\n</blockquote>\n<p>Time → needed <img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nMethod → needed <img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nURL → needed <img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\nReferer → not needed, but not harmful</p>\n<p>So this option includes all the necessary fields, just with one extra — which doesn’t invalidate it.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/9/0/9062a032d89a4b2b049ca34b23905d501cba7913.jpeg\" data-download-href=\"/uploads/short-url/kBi3KxCTBUs9L4ifYXzDfQKdZRh.jpeg?dl=1\" title=\"1000042548\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/0/9062a032d89a4b2b049ca34b23905d501cba7913_2_690x192.jpeg\" alt=\"1000042548\" data-base62-sha1=\"kBi3KxCTBUs9L4ifYXzDfQKdZRh\" width=\"690\" height=\"192\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/0/9062a032d89a4b2b049ca34b23905d501cba7913_2_690x192.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/0/9062a032d89a4b2b049ca34b23905d501cba7913_2_1035x288.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/9/0/9062a032d89a4b2b049ca34b23905d501cba7913.jpeg 2x\" data-dominant-color=\"F5F3F2\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">1000042548</span><span class=\"informations\">1080×301 71.5 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Acc to solutions only option 6406534159827 is valid:</p>\n<p>Status is numeric (200)<br>\nMethod (GET), Protocol (HTTP/1.1), and URL (/index.html) are correct</p>\n<p>All required fields are present and properly formatted</p>\n<p>The other options were as follows:</p>\n<p>9825 uses invalid protocol (INVALID)</p>\n<p>9826 uses invalid status code (OK instead of numeric)</p>\n<p>9824 has no critical issue — it is technically also valid (only uses a private IP 192.168.1.1, which is unusual but not invalid). So both 9824 and 9827 are valid, but the answer marked only 9827</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/3/03aec49b7ba39078f204ef24fefa80dae8e9b373.jpeg\" data-download-href=\"/uploads/short-url/wzS0A3Uz9s9vYMNHAkB3yKh7cn.jpeg?dl=1\" title=\"1000042545\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/3/03aec49b7ba39078f204ef24fefa80dae8e9b373_2_690x299.jpeg\" alt=\"1000042545\" data-base62-sha1=\"wzS0A3Uz9s9vYMNHAkB3yKh7cn\" width=\"690\" height=\"299\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/3/03aec49b7ba39078f204ef24fefa80dae8e9b373_2_690x299.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/0/3/03aec49b7ba39078f204ef24fefa80dae8e9b373_2_1035x448.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/0/3/03aec49b7ba39078f204ef24fefa80dae8e9b373.jpeg 2x\" data-dominant-color=\"F7F6F6\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">1000042545</span><span class=\"informations\">1079×468 35.7 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\nCorrect Answer(s):</p>\n<p><img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"> PUT – Correct: It replaces the resource entirely. Multiple identical PUTs = same result.</p>\n<p><img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"> GET – Also correct: It only fetches data, no side-effects. Multiple GETs = same result.</p>\n<p><img src=\"https://emoji.discourse-cdn.com/google/white_check_mark.png?v=14\" title=\":white_check_mark:\" class=\"emoji\" alt=\":white_check_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"> DELETE – Technically correct: Deleting the same resource multiple times has the same result as deleting once (resource stays deleted).</p>\n<hr>\n<p>Incorrect Answer:</p>\n<p><img src=\"https://emoji.discourse-cdn.com/google/cross_mark.png?v=14\" title=\":cross_mark:\" class=\"emoji\" alt=\":cross_mark:\" loading=\"lazy\" width=\"20\" height=\"20\"> POST – Not idempotent. Each POST usually creates a new resource or changes server state.</p>\n<p>(This is the mistake on my part that I put the ans as POST as I thought since 3/4 are idempotent and one is not I should select the odd one out but I hope this could be resolved)</p>\n<p>Thank you</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-15T09:59:51.136Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 52,
+        "reads": 117,
+        "readers_count": 116,
+        "score": 373.2,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shambhavi Verma",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 6,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30376,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/1",
+        "user_cakedate": "2024-06-02",
+        "user_birthdate": "1904-09-28",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 6
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 6,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null,
+        "can_vote": false
+      },
+      {
+        "id": 619868,
+        "name": "Koustubh Ramakrishnan",
+        "username": "koustubhr",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/koustubhr/{size}/68167_2.png",
+        "created_at": "2025-04-15T17:19:29.506Z",
+        "cooked": "<p>Agree &amp; second all thoughts shared by <a class=\"mention\" href=\"/u/24f2003130\">@24f2003130</a> above.</p>\n<ul>\n<li>\n<p>I also wanted to clarify on this question on filtered entries. The question mentions that a list filtered_entries is being created , and with the way the question is structured it seems like the filtering conditions mentioned in the question have already been applied. In that case <code>len(filtered entries)</code> seems to be correct. However the right answer is marked ‘None of these’ .<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/5/f5f549e906df1006709b3257742fff4b52f416d0.png\" data-download-href=\"/uploads/short-url/z5Qvydw8nYEYuIyQ5RZLKdwMgzS.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/5/f5f549e906df1006709b3257742fff4b52f416d0_2_690x245.png\" alt=\"image\" data-base62-sha1=\"z5Qvydw8nYEYuIyQ5RZLKdwMgzS\" width=\"690\" height=\"245\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/5/f5f549e906df1006709b3257742fff4b52f416d0_2_690x245.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/5/f5f549e906df1006709b3257742fff4b52f416d0_2_1035x367.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/5/f5f549e906df1006709b3257742fff4b52f416d0.png 2x\" data-dominant-color=\"F2EFEE\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1108×394 81.9 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n</li>\n<li>\n<p>The valid log entry had me stumped too, option 1 and 4 both look absolutely fine yet only option 4 is marked correct.</p>\n</li>\n<li>\n<p>Also, only POST request is not idempotent, all other requests are idempotent yet only PUT is marked correct.</p>\n</li>\n</ul>\n<p>Request you to please clarify and consider these points.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-15T17:19:29.506Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 97,
+        "readers_count": 96,
+        "score": 84.4,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Koustubh Ramakrishnan",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 32940,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/2",
+        "user_cakedate": "2024-06-04",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 619891,
+        "name": "Shivaditya Bhattacharya",
+        "username": "22f3000819",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000819/{size}/66738_2.png",
+        "created_at": "2025-04-15T18:13:03.725Z",
+        "cooked": "<p>Yes <a class=\"mention\" href=\"/u/carlton\">@carlton</a> the wording of the question made it seem like the filters were already applied on the list <code>filtered_entries</code>.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-15T18:13:03.725Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 142,
+        "readers_count": 141,
+        "score": 38.2,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shivaditya Bhattacharya",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 32940,
+          "username": "koustubhr",
+          "name": "Koustubh Ramakrishnan",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/koustubhr/{size}/68167_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16002,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/3",
+        "user_cakedate": "2023-01-25",
+        "user_birthdate": "1904-03-07",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620130,
+        "name": "Prasanna",
+        "username": "iamprasna",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iamprasna/{size}/13977_2.png",
+        "created_at": "2025-04-16T10:08:58.668Z",
+        "cooked": "<h1><a name=\"p-620130-clarifications-on-queries-1\" class=\"anchor\" href=\"#p-620130-clarifications-on-queries-1\"></a>Clarifications on Queries</h1>\n<ol>\n<li>\n<p><strong>Which of the following is a valid log entry based on the provided format?</strong><br>\nDue to a technical issue in the portal, both options 1 and 4 are correct answers. The final scoring has been adjusted accordingly, and full marks will be awarded for either response.</p>\n</li>\n<li>\n<p><strong>HTTP method is idempotent</strong><br>\nThis question has been excluded from scoring as three methods (GET, PUT, and DELETE) are idempotent, with only POST being non-idempotent.</p>\n</li>\n<li>\n<p><strong>Entries with 404 status code</strong><br>\nAlthough the instructions did not explicitly state that filters applied for status code 404, we acknowledge this ambiguity. Full credit will be awarded for both option 1 and option 4.</p>\n</li>\n<li>\n<p><strong>Which of the following fields are necessary to filter “POST requests made for pages under /images/ from 15:00 to 18:00 on Mondays”?</strong><br>\nOption A (Time, Request, Method, URL) is correct because:</p>\n</li>\n</ol>\n<ul>\n<li>Option B includes Size and Status, which aren’t needed for filtering by time, method, and URL</li>\n<li>Option C includes Referer, which is unnecessary unless filtering by source page</li>\n<li>Option D includes Status and Server, which aren’t relevant for this specific filtering requirement</li>\n</ul>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-16T10:08:58.668Z",
+        "reply_count": 2,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 98,
+        "reads": 138,
+        "readers_count": 137,
+        "score": 557.4,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Prasanna",
+        "primary_group_name": "course_support",
+        "flair_name": "course_support",
+        "flair_url": "scale-balanced",
+        "flair_bg_color": "0040ff",
+        "flair_color": "1affc6",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "Course_Team",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 9398,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/4",
+        "user_cakedate": "2022-01-03",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 2
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 2,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620133,
+        "name": "Shambhavi Verma",
+        "username": "24f2003130",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "created_at": "2025-04-16T10:15:01.944Z",
+        "cooked": "<p>Thank you for the clarification provided regarding Question 4 and resolution of errors in other questions. I understand the reasoning behind choosing Option A (Time, Request, Method, URL). However, I respectfully believe Option C (Time, Method, URL, Referer) is more accurate for the following reasons:</p>\n<ol>\n<li>\n<p>Redundancy in Option A:<br>\nThe Request field already contains the HTTP method, URL, and protocol (e.g., “POST /images/logo.png HTTP/1.1”). Including both Request and separate Method and URL fields introduces redundancy. If we already extract Method and URL separately for filtering, the full Request field becomes unnecessary.</p>\n</li>\n<li>\n<p>Simplicity in Filtering:<br>\nFiltering for “POST requests under /images/” from 15:00 to 18:00 on Mondays can be done using:</p>\n</li>\n</ol>\n<p>Time → for checking the hour and weekday.</p>\n<p>Method → to filter only POST.</p>\n<p>URL → to ensure the request is under /images/.</p>\n<p>Thus, Option C (Time, Method, URL, Referer) already includes all needed fields. While Referer is not essential, it doesn’t interfere with the filtering and might be useful in future extended filtering cases (e.g., source tracking). Therefore, Option C is complete and accurate without being redundant.</p>\n<ol start=\"3\">\n<li>Consistency with Log Parsing Practices:<br>\nIn most log analysis scripts or systems (e.g., Python’s re or pandas parsing of logs), Method and URL are parsed from Request for separate use. This further supports the idea that including Request alongside Method and URL is not best practice.</li>\n</ol>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-16T10:15:01.944Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 8,
+        "reads": 134,
+        "readers_count": 133,
+        "score": 66.6,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shambhavi Verma",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 9398,
+          "username": "iamprasna",
+          "name": "Prasanna",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iamprasna/{size}/13977_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30376,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/5",
+        "user_cakedate": "2024-06-02",
+        "user_birthdate": "1904-09-28",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620467,
+        "name": "Shivaditya Bhattacharya",
+        "username": "22f3000819",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000819/{size}/66738_2.png",
+        "created_at": "2025-04-16T18:28:35.206Z",
+        "cooked": "<p>Sir, regarding point 3, score-checker tells a different story. While all the other changes have been made with the same reflecting in the score, that question still says “The question and answer remain the same . No changes required”, which is different from your post.</p>\n<p><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/0/404e7b25f4155d41d4939b07fd45fa3c120beadd_2_690x31.png\" alt=\"image\" data-base62-sha1=\"9aSHAfq31r6LUlSOz4aOuDJd1s9\" width=\"690\" height=\"31\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/0/404e7b25f4155d41d4939b07fd45fa3c120beadd_2_690x31.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/0/404e7b25f4155d41d4939b07fd45fa3c120beadd_2_1035x46.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/4/0/404e7b25f4155d41d4939b07fd45fa3c120beadd_2_1380x62.png 2x\" data-dominant-color=\"EBEEF2\"><br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/9/1/91a843fad0075c603424114af0cfca114941a304.png\" data-download-href=\"/uploads/short-url/kMxJUqb03TNPiIf0e1wW5LmlOh6.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/1/91a843fad0075c603424114af0cfca114941a304_2_690x263.png\" alt=\"image\" data-base62-sha1=\"kMxJUqb03TNPiIf0e1wW5LmlOh6\" width=\"690\" height=\"263\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/9/1/91a843fad0075c603424114af0cfca114941a304_2_690x263.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/9/1/91a843fad0075c603424114af0cfca114941a304.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/9/1/91a843fad0075c603424114af0cfca114941a304.png 2x\" data-dominant-color=\"F2F0EF\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">923×352 72 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Can you please look into it?</p>\n<p>Thanks<br>\nRegards,<br>\nShivaditya</p>",
+        "post_number": 6,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-16T18:28:35.206Z",
+        "reply_count": 2,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 45.8,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shivaditya Bhattacharya",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 9398,
+          "username": "iamprasna",
+          "name": "Prasanna",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iamprasna/{size}/13977_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16002,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/6",
+        "user_cakedate": "2023-01-25",
+        "user_birthdate": "1904-03-07",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620472,
+        "name": "Shambhavi Verma",
+        "username": "24f2003130",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "created_at": "2025-04-16T18:47:03.645Z",
+        "cooked": "<p><a class=\"mention\" href=\"/u/iamprasna\">@iamprasna</a> sir , the scores have been updated on the dashboard as well and the answer for the question in point 3 is still the same</p>\n<p>Additionally , sir I have attached the snapshot of a dec’24 TDS PYQ which is a replica of this question and the answer for the same is mention the first option.</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/d/fda110de0ada74e60ba0e160ab21463c4ebdbd44.jpeg\" data-download-href=\"/uploads/short-url/AbHSGMuXF9zvg4FybyCD4uGyueo.jpeg?dl=1\" title=\"1000042796\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fda110de0ada74e60ba0e160ab21463c4ebdbd44_2_690x343.jpeg\" alt=\"1000042796\" data-base62-sha1=\"AbHSGMuXF9zvg4FybyCD4uGyueo\" width=\"690\" height=\"343\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fda110de0ada74e60ba0e160ab21463c4ebdbd44_2_690x343.jpeg, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fda110de0ada74e60ba0e160ab21463c4ebdbd44_2_1035x514.jpeg 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/d/fda110de0ada74e60ba0e160ab21463c4ebdbd44.jpeg 2x\" data-dominant-color=\"F6F6F6\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">1000042796</span><span class=\"informations\">1080×538 84.7 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>The link for the same has been attached for your referance</p><aside class=\"onebox googledrive\" data-onebox-src=\"https://drive.google.com/file/d/13RkOKhfalx4uVu7gqFYUncvJ9_-lYMMX/view?usp=drivesdk\">\n  <header class=\"source\">\n\n      <a href=\"https://drive.google.com/file/d/13RkOKhfalx4uVu7gqFYUncvJ9_-lYMMX/view?usp=drivesdk\" target=\"_blank\" rel=\"noopener nofollow ugc\">drive.google.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n      <a href=\"https://drive.google.com/file/d/13RkOKhfalx4uVu7gqFYUncvJ9_-lYMMX/view?usp=drivesdk\" target=\"_blank\" rel=\"noopener nofollow ugc\"><span class=\"googledocs-onebox-logo g-drive-logo\"></span></a>\n\n\n\n<h3><a href=\"https://drive.google.com/file/d/13RkOKhfalx4uVu7gqFYUncvJ9_-lYMMX/view?usp=drivesdk\" target=\"_blank\" rel=\"noopener nofollow ugc\">IIT M FOUNDATION DIPLOMA FN EXAM QDF2 22 Dec 2024.pdf</a></h3>\n\n<p>Google Drive file.</p>\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-17T04:17:20.826Z",
+        "reply_count": 1,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 14,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 100.6,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shambhavi Verma",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 4,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://drive.google.com/file/d/13RkOKhfalx4uVu7gqFYUncvJ9_-lYMMX/view?usp=drivesdk",
+            "internal": false,
+            "reflection": false,
+            "title": "IIT M FOUNDATION DIPLOMA FN EXAM QDF2 22 Dec 2024.pdf - Google Drive",
+            "clicks": 3
+          }
+        ],
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 16002,
+          "username": "22f3000819",
+          "name": "Shivaditya Bhattacharya",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000819/{size}/66738_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30376,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/7",
+        "user_cakedate": "2024-06-02",
+        "user_birthdate": "1904-09-28",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620477,
+        "name": "Shivaditya Bhattacharya",
+        "username": "22f3000819",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000819/{size}/66738_2.png",
+        "created_at": "2025-04-16T19:04:11.803Z",
+        "cooked": "<p>That’s a great find. They’re the same question with just different parameters. Please look into it <a class=\"mention\" href=\"/u/iamprasna\">@iamprasna</a> sir.</p>",
+        "post_number": 8,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-16T19:04:11.803Z",
+        "reply_count": 0,
+        "reply_to_post_number": 7,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 52,
+        "readers_count": 51,
+        "score": 10.2,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shivaditya Bhattacharya",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 30376,
+          "username": "24f2003130",
+          "name": "Shambhavi Verma",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16002,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/8",
+        "user_cakedate": "2023-01-25",
+        "user_birthdate": "1904-03-07",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620539,
+        "name": "Shambhavi Verma",
+        "username": "24f2003130",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "created_at": "2025-04-17T04:17:09.060Z",
+        "cooked": "<p><a class=\"mention\" href=\"/u/carlton\">@carlton</a> sir and <a class=\"mention\" href=\"/u/jivraj\">@Jivraj</a> sir please look into this question and clarify this</p>\n<p>Thank you</p>",
+        "post_number": 9,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-17T10:37:21.272Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 48,
+        "readers_count": 47,
+        "score": 19.4,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shambhavi Verma",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 4,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30376,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/9",
+        "user_cakedate": "2024-06-02",
+        "user_birthdate": "1904-09-28",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620540,
+        "name": "Swati Kapoor",
+        "username": "swatikap",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/swatikap/{size}/66760_2.png",
+        "created_at": "2025-04-17T04:20:13.544Z",
+        "cooked": "<p>Hi,<br>\nFrom where are you checking the transcripts? I’m not able to see the answer transcripts in the score checker app.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/3/d/3d54127deb9243fce2a75dace8f4b52f14f9057f.png\" data-download-href=\"/uploads/short-url/8KxftzhVAR7hdIl6XyT5lEFAL6v.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/d/3d54127deb9243fce2a75dace8f4b52f14f9057f_2_690x226.png\" alt=\"image\" data-base62-sha1=\"8KxftzhVAR7hdIl6XyT5lEFAL6v\" width=\"690\" height=\"226\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/d/3d54127deb9243fce2a75dace8f4b52f14f9057f_2_690x226.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/d/3d54127deb9243fce2a75dace8f4b52f14f9057f_2_1035x339.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/3/d/3d54127deb9243fce2a75dace8f4b52f14f9057f_2_1380x452.png 2x\" data-dominant-color=\"CBD2D6\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1891×622 31.7 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+        "post_number": 10,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-17T04:20:13.544Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 48,
+        "readers_count": 47,
+        "score": 14.4,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Swati Kapoor",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 24244,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/10",
+        "user_cakedate": "2023-10-16",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620544,
+        "name": "Shambhavi Verma",
+        "username": "24f2003130",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "created_at": "2025-04-17T04:22:31.946Z",
+        "cooked": "<p>Click on the eye button …then you will be able to view your transcript</p>",
+        "post_number": 11,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-17T04:22:31.946Z",
+        "reply_count": 1,
+        "reply_to_post_number": 10,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 50,
+        "readers_count": 49,
+        "score": 14.8,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shambhavi Verma",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 24244,
+          "username": "swatikap",
+          "name": "Swati Kapoor",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/swatikap/{size}/66760_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30376,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/11",
+        "user_cakedate": "2024-06-02",
+        "user_birthdate": "1904-09-28",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620546,
+        "name": "Swati Kapoor",
+        "username": "swatikap",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/swatikap/{size}/66760_2.png",
+        "created_at": "2025-04-17T04:25:22.034Z",
+        "cooked": "<p>Thanks for the reply, but I only see the question id’s and answer id’s, not able to find the transcripts.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/7/f7adba30daf6dbdfda4884a7b821a593557a466a.png\" data-download-href=\"/uploads/short-url/zl48WsOV7M3b9v0o3ZveMo6b6ye.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/7/f7adba30daf6dbdfda4884a7b821a593557a466a_2_690x341.png\" alt=\"image\" data-base62-sha1=\"zl48WsOV7M3b9v0o3ZveMo6b6ye\" width=\"690\" height=\"341\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/7/f7adba30daf6dbdfda4884a7b821a593557a466a_2_690x341.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/7/f7adba30daf6dbdfda4884a7b821a593557a466a_2_1035x511.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/7/f7adba30daf6dbdfda4884a7b821a593557a466a_2_1380x682.png 2x\" data-dominant-color=\"E0E3CC\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1867×923 94.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+        "post_number": 12,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-17T04:25:22.034Z",
+        "reply_count": 1,
+        "reply_to_post_number": 11,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 47,
+        "readers_count": 46,
+        "score": 14.2,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Swati Kapoor",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 30376,
+          "username": "24f2003130",
+          "name": "Shambhavi Verma",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 24244,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/12",
+        "user_cakedate": "2023-10-16",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 620547,
+        "name": "Shambhavi Verma",
+        "username": "24f2003130",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "created_at": "2025-04-17T04:28:25.475Z",
+        "cooked": "<p>It seems that the option to download the answer key has been removed. However, you could consider reaching out to someone in the group or checking the dashboard for  solution pdf of question paper. You can then match the questions in order, even if the IDs don’t align exactly—it should still give you a general idea. From there, you can proceed accordingly.</p>",
+        "post_number": 13,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-17T04:28:25.475Z",
+        "reply_count": 0,
+        "reply_to_post_number": 12,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 24.2,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shambhavi Verma",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 24244,
+          "username": "swatikap",
+          "name": "Swati Kapoor",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/swatikap/{size}/66760_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30376,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/13",
+        "user_cakedate": "2024-06-02",
+        "user_birthdate": "1904-09-28",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 1
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 1,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 621044,
+        "name": "Shivaditya Bhattacharya",
+        "username": "22f3000819",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000819/{size}/66738_2.png",
+        "created_at": "2025-04-17T18:05:30.227Z",
+        "cooked": "<p><a class=\"mention\" href=\"/u/iamprasna\">@iamprasna</a> <a class=\"mention\" href=\"/u/carlton\">@carlton</a> Please look into it once. According to point 3 of <a class=\"mention\" href=\"/u/iamprasna\">@iamprasna</a>’s post, I should get full credit for that question and it will take me to a perfect 100 score in ET from the current 97. I brought this into attention before the scores were pushed to the dashboard.</p>\n<p>Regards,<br>\nShivaditya</p>",
+        "post_number": 14,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-17T18:05:30.227Z",
+        "reply_count": 0,
+        "reply_to_post_number": 6,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 39,
+        "readers_count": 38,
+        "score": 12.8,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shivaditya Bhattacharya",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 16002,
+          "username": "22f3000819",
+          "name": "Shivaditya Bhattacharya",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000819/{size}/66738_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 16002,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/14",
+        "user_cakedate": "2023-01-25",
+        "user_birthdate": "1904-03-07",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 621914,
+        "name": "Prasanna",
+        "username": "iamprasna",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iamprasna/{size}/13977_2.png",
+        "created_at": "2025-04-21T10:46:35.817Z",
+        "cooked": "<p>The correction has been done to the following question for both the FN and AN sessions. You must be able to see the change in scores shortly</p>\n<ol>\n<li><strong>Entries with 404 status code</strong><br>\nAlthough the instructions did not explicitly state that filters applied for status code 404, we acknowledge this ambiguity. Full credit will be awarded for both option 1 and option 4.</li>\n</ol>",
+        "post_number": 15,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-21T10:46:35.817Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 32,
+        "readers_count": 31,
+        "score": 56.2,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Prasanna",
+        "primary_group_name": "course_support",
+        "flair_name": "course_support",
+        "flair_url": "scale-balanced",
+        "flair_bg_color": "0040ff",
+        "flair_color": "1affc6",
+        "flair_group_id": 41,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "Course_Team",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 9398,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/15",
+        "user_cakedate": "2022-01-03",
+        "reactions": [
+          {
+            "id": "heart",
+            "type": "emoji",
+            "count": 3
+          }
+        ],
+        "current_user_reaction": null,
+        "reaction_users_count": 3,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      },
+      {
+        "id": 621957,
+        "name": "Shambhavi Verma",
+        "username": "24f2003130",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "created_at": "2025-04-21T13:51:30.076Z",
+        "cooked": "<p>Thank you sir for acknowledging our requests and resolving the error</p>",
+        "post_number": 16,
+        "post_type": 1,
+        "posts_count": 16,
+        "updated_at": "2025-04-21T13:51:30.076Z",
+        "reply_count": 0,
+        "reply_to_post_number": 15,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 30,
+        "readers_count": 29,
+        "score": 5.8,
+        "yours": false,
+        "topic_id": 172707,
+        "topic_slug": "queries-regarding-end-term-exam-solutions",
+        "display_username": "Shambhavi Verma",
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 294,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 9398,
+          "username": "iamprasna",
+          "name": "Prasanna",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iamprasna/{size}/13977_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "can_act": true
+          },
+          {
+            "id": 6,
+            "can_act": true
+          },
+          {
+            "id": 3,
+            "can_act": true
+          },
+          {
+            "id": 4,
+            "can_act": true
+          },
+          {
+            "id": 8,
+            "can_act": true
+          },
+          {
+            "id": 10,
+            "can_act": true
+          },
+          {
+            "id": 7,
+            "can_act": true
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 30376,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": true,
+        "wiki": false,
+        "post_url": "/t/queries-regarding-end-term-exam-solutions/172707/16",
+        "user_cakedate": "2024-06-02",
+        "user_birthdate": "1904-09-28",
+        "reactions": [],
+        "current_user_reaction": null,
+        "reaction_users_count": 0,
+        "current_user_used_main_reaction": false,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": null
+      }
+    ],
+    "stream": [
+      619552,
+      619868,
+      619891,
+      620130,
+      620133,
+      620467,
+      620472,
+      620477,
+      620539,
+      620540,
+      620544,
+      620546,
+      620547,
+      621044,
+      621914,
+      621957
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      46
+    ],
+    [
+      4,
+      45
+    ],
+    [
+      9,
+      44
+    ],
+    [
+      15,
+      40
+    ]
+  ],
+  "suggested_topics": [
+    {
+      "id": 173524,
+      "title": "GA1 - Development Tools - Discussion Thread [TDS May 2025]",
+      "fancy_title": "GA1 - Development Tools - Discussion Thread [TDS May 2025]",
+      "slug": "ga1-development-tools-discussion-thread-tds-may-2025",
+      "posts_count": 80,
+      "reply_count": 51,
+      "highest_post_number": 85,
+      "image_url": null,
+      "created_at": "2025-05-01T11:39:00.734Z",
+      "last_posted_at": "2025-05-31T15:34:18.368Z",
+      "bumped": true,
+      "bumped_at": "2025-05-31T15:34:18.368Z",
+      "archetype": "regular",
+      "unseen": false,
+      "last_read_post_number": 82,
+      "unread": 0,
+      "new_posts": 3,
+      "unread_posts": 3,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "notification_level": 2,
+      "bookmarked": false,
+      "liked": false,
+      "tags": [
+        "term2-2025",
+        "graded-assignment"
+      ],
+      "tags_descriptions": {},
+      "like_count": 25,
+      "views": 1155,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 9419,
+            "username": "s.anand",
+            "name": "Anand S",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+            "primary_group_name": "faculty",
+            "flair_name": "faculty",
+            "flair_url": "chalkboard-user",
+            "flair_bg_color": "f2c26e",
+            "flair_color": "000",
+            "flair_group_id": 54,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 22472,
+            "username": "Advaith52",
+            "name": "Advaith Sanil Kumar",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/advaith52/{size}/67172_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 15658,
+            "username": "HritikRoshan_HRM",
+            "name": "HRITIK ROSHAN MAURYA",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/hritikroshan_hrm/{size}/66975_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 12914,
+            "username": "iAnimeshS",
+            "name": "Animesh",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/ianimeshs/{size}/12415_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 176789,
+      "title": "Vercel deployement error",
+      "fancy_title": "Vercel deployement error",
+      "slug": "vercel-deployement-error",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-05-31T11:55:22.507Z",
+      "last_posted_at": "2025-05-31T11:55:22.708Z",
+      "bumped": true,
+      "bumped_at": "2025-05-31T11:55:22.708Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "diploma-level",
+        "term2-2025"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 9,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 25506,
+            "username": "23f3003724",
+            "name": "Vedika Gupta",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f3003724/{size}/68806_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "clarification",
+    "end-term-exam"
+  ],
+  "tags_descriptions": {},
+  "id": 172707,
+  "title": "Queries regarding End Term exam solutions",
+  "fancy_title": "Queries regarding End Term exam solutions",
+  "posts_count": 16,
+  "created_at": "2025-04-15T09:59:50.919Z",
+  "views": 295,
+  "reply_count": 10,
+  "like_count": 17,
+  "last_posted_at": "2025-04-21T13:51:30.076Z",
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "queries-regarding-end-term-exam-solutions",
+  "category_id": 34,
+  "word_count": 1393,
+  "deleted_at": null,
+  "user_id": 30376,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8_2_1024x548.jpeg",
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_172707",
+  "draft_sequence": 0,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 16,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": true
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 5,
+  "show_read_indicator": false,
+  "thumbnails": [
+    {
+      "max_width": null,
+      "max_height": null,
+      "width": 1080,
+      "height": 578,
+      "url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8.jpeg"
+    },
+    {
+      "max_width": 1024,
+      "max_height": 1024,
+      "width": 1024,
+      "height": 548,
+      "url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/f/d/fd08e14665989ccea8f5a547b569521575208ae8_2_1024x548.jpeg"
+    }
+  ],
+  "slow_mode_enabled_until": null,
+  "tags_disable_ads": false,
+  "related_topics": [
+    {
+      "id": 60860,
+      "title": "IMP - Previous term paper - Quite important for end term preparation",
+      "fancy_title": "IMP - Previous term paper - Quite important for end term preparation",
+      "slug": "imp-previous-term-paper-quite-important-for-end-term-preparation",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2022-08-07T06:03:17.691Z",
+      "last_posted_at": "2022-08-07T13:22:20.749Z",
+      "bumped": true,
+      "bumped_at": "2022-08-07T13:22:20.749Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "practice-question"
+      ],
+      "tags_descriptions": {},
+      "like_count": 6,
+      "views": 155,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2872,
+            "username": "2old2learn",
+            "name": "S R Srinivasan",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/2old2learn/{size}/30059_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6487,
+            "username": "Bharatm",
+            "name": "Bharat Mahindra",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/bharatm/{size}/14156_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 222,
+            "username": "rahul.sharma",
+            "name": "Rahul Sharma",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/rahul.sharma/{size}/26982_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 100923,
+      "title": "End Term - Doubts and Clarifications",
+      "fancy_title": "End Term - Doubts and Clarifications",
+      "slug": "end-term-doubts-and-clarifications",
+      "posts_count": 27,
+      "reply_count": 19,
+      "highest_post_number": 31,
+      "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/9/d/9d7fba8e458b476821226247884d0af3d56461b8.png",
+      "created_at": "2023-09-06T10:33:10.811Z",
+      "last_posted_at": "2023-12-19T06:17:36.017Z",
+      "bumped": true,
+      "bumped_at": "2023-12-19T06:17:36.017Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "clarification",
+        "error",
+        "end-term-exam"
+      ],
+      "tags_descriptions": {},
+      "like_count": 23,
+      "views": 417,
+      "category_id": 30,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 11707,
+            "username": "sukraat",
+            "name": "Sukraat Dang",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sukraat/{size}/21009_2.png",
+            "primary_group_name": "iic_pod",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3270,
+            "username": "umaskn",
+            "name": "Uma",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/umaskn/{size}/1432_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3123,
+            "username": "Amruta",
+            "name": "Amruta Joshi",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/amruta/{size}/646_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16739,
+            "username": "23ds1000129",
+            "name": "Abhinav Kumar",
+            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/b5a626/{size}.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 14364,
+            "username": "22f2001362",
+            "name": "Anonymous",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f2001362/{size}/45392_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 171668,
+      "title": "End term TDS",
+      "fancy_title": "End term TDS",
+      "slug": "end-term-tds",
+      "posts_count": 13,
+      "reply_count": 7,
+      "highest_post_number": 13,
+      "image_url": null,
+      "created_at": "2025-04-03T10:14:21.014Z",
+      "last_posted_at": "2025-04-09T03:06:43.667Z",
+      "bumped": true,
+      "bumped_at": "2025-04-09T03:06:43.667Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "end-term-exam"
+      ],
+      "tags_descriptions": {},
+      "like_count": 21,
+      "views": 315,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 21948,
+            "username": "23f2004752",
+            "name": "Ansh bansal",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004752/{size}/68296_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 40000,
+            "username": "Sakshi6479",
+            "name": "SAKSHI PATHAK",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/sakshi6479/{size}/110446_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21980,
+            "username": "23f2004912",
+            "name": "ABHIJEET KUMAR ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004912/{size}/108710_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 14374,
+            "username": "A_LAKSHMI",
+            "name": "A LAKSHMI",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/a_lakshmi/{size}/14204_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 143625,
+      "title": "End term exam prep",
+      "fancy_title": "End term exam prep",
+      "slug": "end-term-exam-prep",
+      "posts_count": 17,
+      "reply_count": 12,
+      "highest_post_number": 17,
+      "image_url": null,
+      "created_at": "2024-08-22T06:16:46.387Z",
+      "last_posted_at": "2024-08-31T05:42:36.600Z",
+      "bumped": true,
+      "bumped_at": "2024-08-31T05:42:36.600Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "end-term-exam"
+      ],
+      "tags_descriptions": {},
+      "like_count": 42,
+      "views": 555,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 15826,
+            "username": "iitmanupam",
+            "name": "Anupam Chandra",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iitmanupam/{size}/56694_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Accepted Answer",
+          "user": {
+            "id": 9419,
+            "username": "s.anand",
+            "name": "Anand S",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
+            "primary_group_name": "faculty",
+            "flair_name": "faculty",
+            "flair_url": "chalkboard-user",
+            "flair_bg_color": "f2c26e",
+            "flair_color": "000",
+            "flair_group_id": 54,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 12332,
+            "username": "amoghanshu",
+            "name": "Amogh Anshu N",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/amoghanshu/{size}/47979_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13282,
+            "username": "22f1001809",
+            "name": "Nirmala ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f1001809/{size}/15091_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 143007,
+      "title": "Guidance for End Term Preparation Requested",
+      "fancy_title": "Guidance for End Term Preparation Requested",
+      "slug": "guidance-for-end-term-preparation-requested",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2024-08-15T09:06:13.243Z",
+      "last_posted_at": "2024-08-21T07:01:40.103Z",
+      "bumped": true,
+      "bumped_at": "2024-08-21T07:01:40.103Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "extra-resources",
+        "guidelines"
+      ],
+      "tags_descriptions": {},
+      "like_count": 11,
+      "views": 172,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 17961,
+            "username": "23ds2000116",
+            "name": "sandhya",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23ds2000116/{size}/66760_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "valid_reactions": [
+    "heart",
+    "+1",
+    "laughing",
+    "open_mouth",
+    "clap",
+    "confetti_ball",
+    "rocket",
+    "-1"
+  ],
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "can_create_post": true,
+    "can_reply_as_new_topic": true,
+    "can_flag_topic": true,
+    "participants": [
+      {
+        "id": 30376,
+        "username": "24f2003130",
+        "name": "Shambhavi Verma",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png",
+        "post_count": 7,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 16002,
+        "username": "22f3000819",
+        "name": "Shivaditya Bhattacharya",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000819/{size}/66738_2.png",
+        "post_count": 4,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 9398,
+        "username": "iamprasna",
+        "name": "Prasanna",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iamprasna/{size}/13977_2.png",
+        "post_count": 2,
+        "primary_group_name": "course_support",
+        "flair_name": "course_support",
+        "flair_url": "scale-balanced",
+        "flair_color": "1affc6",
+        "flair_bg_color": "0040ff",
+        "flair_group_id": 41,
+        "trust_level": 4
+      },
+      {
+        "id": 24244,
+        "username": "swatikap",
+        "name": "Swati Kapoor",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/swatikap/{size}/66760_2.png",
+        "post_count": 2,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 32940,
+        "username": "koustubhr",
+        "name": "Koustubh Ramakrishnan",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/koustubhr/{size}/68167_2.png",
+        "post_count": 1,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 30376,
+      "username": "24f2003130",
+      "name": "Shambhavi Verma",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png"
+    },
+    "last_poster": {
+      "id": 30376,
+      "username": "24f2003130",
+      "name": "Shambhavi Verma",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f2003130/{size}/132501_2.png"
+    },
+    "links": [
+      {
+        "url": "https://drive.google.com/file/d/13RkOKhfalx4uVu7gqFYUncvJ9_-lYMMX/view?usp=drivesdk",
+        "title": "IIT M FOUNDATION DIPLOMA FN EXAM QDF2 22 Dec 2024.pdf - Google Drive",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 3,
+        "user_id": 30376,
+        "domain": "drive.google.com",
+        "root_domain": "google.com"
+      }
+    ]
+  },
+  "pending_posts": [],
+  "bookmarks": []
+}
