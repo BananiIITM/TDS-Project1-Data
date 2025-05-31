@@ -1,5 +1,7 @@
 # TDS Data Repository
 
+**WARNING: Use this data at your own risk. Ensure all the data is correct and how you want it. There is no guarantee on the completeness and correctness of the data.**
+
 ## Overview
 
 This repository contains raw data sources scraped from two sources:
