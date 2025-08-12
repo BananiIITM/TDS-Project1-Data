@@ -18,22 +18,6 @@ The data includes:
 - **discourse_json/**: A directory containing individual JSON files for each topic post stream.
 - **tds_pages_md/**: A directory containing Markdown files for each page scraped from the TDS 2025-01 website.
 
-## Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/23f3004008/TDS-Project1-Data.git
-   cd TDS-Project1-Data
-   ```
-
-2. **Install Dependencies**
-
-   Ensure you have Python installed, then run:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
